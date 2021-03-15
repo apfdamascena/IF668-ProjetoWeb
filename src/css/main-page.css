@@ -1,0 +1,136 @@
+.main-wrapper {
+    display: flex;
+}
+
+.main-wrapper .left-side-wrapper {
+    width: 22vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-right: 1.7px solid #343434;
+}
+
+.main-wrapper .left-side-wrapper img {
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+}
+
+.main-wrapper .left-side-wrapper h2 {
+    font-size: 1.8rem;
+    color: #FFFF;
+    font-weight: bold;
+}
+
+.main-wrapper .left-side-wrapper h2:hover {
+    color: #FFF8;
+}
+
+.main-wrapper .left-side-wrapper .student-infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-wrapper .left-side-wrapper .student-infos .box {
+    background-color: #FFFFFF;
+    width: 16vw;
+    height: 5vh;
+    margin: 1.2rem;
+    border-radius: 8px;
+    opacity: 0.9;
+    border-bottom: 1.6px solid #505050;
+    cursor: pointer;
+}
+
+.main-wrapper .left-side-wrapper .student-infos .box h2 {
+    text-align: center;
+    margin-top: 5px;
+    color: #3a3a3a;
+    font-weight: bolder;
+}
+
+.main-wrapper .left-side-wrapper .student-infos .box:hover {
+    background-color: #E9E9E9;
+    transform: translateX(1.4rem);
+    animation-duration: 0.3s;
+}
+
+.main-wrapper .right-side-wrapper {
+    width: 78%;
+    height: 100vh;
+}
+
+.main-wrapper .right-side-wrapper .info-box {
+    width: 71vw;
+    height: 85vh;
+    margin: 4rem 0 0 4.4rem;
+
+    border-radius: 8px;
+
+    background-color: rgba(246, 236, 255, 0.9);
+    border: 1px solid rgb(0, 0, 245);
+}
+
+.main-wrapper .right-side-wrapper .estudos,
+.main-wrapper .right-side-wrapper .hobbies {
+    display: none;
+}
+
+.main-wrapper .right-side-wrapper .maisSobre,
+.main-wrapper .right-side-wrapper .estudos,
+.main-wrapper .right-side-wrapper .hobbies{
+    width: 68vw;
+    height: 80vh;
+    padding-top: 20px;
+    margin-left: 15rem;
+}
+.main-wrapper .right-side-wrapper .maisSobre .infos,
+.main-wrapper .right-side-wrapper .estudos .infos,
+.main-wrapper .right-side-wrapper .hobbies .infos {
+    background-color: rgba(111, 107, 114, 0.85);
+    border-bottom: 1.6px solid rgb(0, 0, 245);
+    margin: 2rem 0 0 2rem;
+    width: 35vw;
+    height: 16vh;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-wrapper .right-side-wrapper .maisSobre .infos p,
+.main-wrapper .right-side-wrapper .estudos .infos p,
+.main-wrapper .right-side-wrapper .hobbies .infos p {
+    font-size: 1.3rem;
+    margin-left: 2px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.main-wrapper .right-side-wrapper .estudos .infos img {
+    width: 50px;
+    height: 40px;
+}
+
+.main-wrapper .right-side-wrapper .estudos .infos li {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.main-wrapper .right-side-wrapper .estudos .infos #github{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+}
+
+.main-wrapper .right-side-wrapper .maisSobre #move-right,
+.main-wrapper .right-side-wrapper .estudos #move-right,
+.main-wrapper .right-side-wrapper .hobbies #move-right {
+    margin-left: 22rem;
+}

@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    font-size: 62.5%;
+    font-family: 'Barlow', sans-serif;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://media.istockphoto.com/videos/motion-intro-geometric-neon-blue-triangles-abstract-simple-background-video-id1284041877?s=640x640");
+}
